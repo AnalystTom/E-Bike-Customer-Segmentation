@@ -1,19 +1,19 @@
-
 import duckdb
+import pandas as pd
+import numpy as np
 
 # Connect to DuckDB. If the database does not exist, it will be created.
-con = duckdb.connect(database='transaction.db', read_only=False)
+con = duckdb.connect(database='transactions.db', read_only=False)
+
+transactions = con.execute("SELECT * FROM transactions").df()
+customer = con.execute("SELECT * FROM customers").df()
+address = con.execute("SELECT * FROM addresses").df()
 
 
-# Execute the SQL statement to create the table
 
 
-# Verify the table was created by listing tables in the database
-tables = con.execute("SHOW TABLES").fetchall()
-print(tables)
+
+
 
 # Close the connection
 con.close()
-
-
-penguins.head().to_pandas()

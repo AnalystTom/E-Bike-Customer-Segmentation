@@ -4,12 +4,12 @@ import pandas as pd
 # Define the CSV file paths
 csv_files = {
     'transactions': 'data/transactions.csv',
-    'customer': 'data/clients.csv',
-    'address': 'data/addresses.csv',
+    'customers': 'data/clients.csv',
+    'addresses': 'data/addresses.csv',
 }
 
 # Connect to the DuckDB database
-con = duckdb.connect(database='transaction.db', read_only=False)
+con = duckdb.connect(database='transactions.db', read_only=False)
 
 # Loop through each table and corresponding CSV file
 for table_name, file_path in csv_files.items():
