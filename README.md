@@ -5,8 +5,9 @@ This project aims to conduct a Customer Segmentation Analysis for an Automobile 
 
 
 ## Power BI Dashboard
-The Sales Dashboard for Customer Segmentation can be found [here](https://public.tableau.com/profile/abhishek.chowdhury#!/vizhome/CustomerSegmentationDashboard_16175595616510/RFMDashboard).<br>
-<img src="data%20visualization/Sales%20Dashboard.gif" height="500" align="middle"><br>
+The Sales Dashboard for Customer Segmentation can be found [here]
+(https://public.tableau.com/views/CustomerSegmentationDashboard_17138963306970/RFMDashboard?:language=en-GB&:sid=&:display_count=n&:origin=viz_share_link).<br>
+![image](https://github.com/RusskiBoyVlad/E-Bike-Customer-Segmentation/assets/85899536/97d85681-f76f-4e47-9a94-80163889b0c7)
 
 ## Analysis Approach
 ### 1. Data Model Planning and Creation 
